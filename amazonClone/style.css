@@ -1,0 +1,50 @@
+#navbar{
+    height: 100px;
+    width: auto;
+    border: 2px solid black;
+    background-color: #0f1110;
+    
+}
+#navbar li a{
+      text-decoration: none;
+      color: white;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    gap: 40px;
+}
+#navbar a :hover{
+    border: 1px solid white;
+    border-radius: 2px ;
+     font-size: large;
+
+}
+#navbar li img{
+    width: 100px;
+    border: 2px solid white;
+    padding: 10px;
+}
+div.second{
+    height: 700px;
+    background-image: url("Jupiter25_H1_Prime_PC_1_2x._CB801793304_.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+div #oneimg{
+    height: 100px;
+    width: 200px;
+    border: 2px solid white;
+    background-image: url("revap\ your\ home.jpg");
+    background-repeat: no-repeat;
+}
+div #oneimg p{
+   color: white;
+}
+div.second h1{
+      color: white;
+}
