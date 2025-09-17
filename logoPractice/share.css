@@ -1,0 +1,28 @@
+.share{
+    height: 200px;
+    width: 200px;
+    border: 3px solid deepskyblue;
+    border-radius: 30px;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .share p{
+    font-size: 100px ;
+    margin: 0px;
+
+}
+ .share h4{
+    color: #dd2983;
+    font-size: 32px;
+    align-content: center;
+    margin-top: 0px;
+}
+ div:hover {
+    background-color:yellow;
+    border-color: hotpink;
+ }
+  

@@ -1,0 +1,27 @@
+.logobox{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    border: 4px solid rgb(95, 29, 95);
+    background-color: rgb(95, 29, 95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.logobox p{
+    color: rgb(255, 166, 0);
+    font-size: 123px;
+    margin: 0px ;
+    font-weight: bold;
+    
+}
+
+ .p1{
+color: white;
+font-size: 20px;
+text-align: center;
+font-family: 'Courier New', Courier,;
+}
