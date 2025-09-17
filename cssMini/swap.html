@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world Carouse</title>
+</head>
+<style>
+    .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h1::after{
+        content: "";
+        animation:swap 2s infinite forwards;
+        background-color: hotpink;
+        border: 2px solid purple;
+        color: white;
+        border-radius: 5px;
+    }
+    @keyframes swap {
+        10%{
+            content: " chocklate icecream";
+        }
+        25%{
+        content: "summar";
+        }
+        50%{
+         content: "hairclips";
+        }
+        75%{
+          content: "littel small cute thinks";
+        }
+        100%{
+         content: " chocklate icecream";
+        }
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h1> I Love </h1>
+    </div>
+
+</body>
+</html>

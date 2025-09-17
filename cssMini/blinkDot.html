@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading Animation</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 300px;
+    }
+    .box{
+        height: 50px;
+        width: 50px;
+        background-color: gray;
+        border-radius: 50%;
+        margin: 10px;
+        animation: blink  infinite 1s ;
+
+    }
+    @keyframes blink {
+        from{
+        background-color: gray;
+        }
+        to{
+        background-color:lightgrey ;
+        height: 40px;
+        width: 40px;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+    </div>
+</body>
+</html>

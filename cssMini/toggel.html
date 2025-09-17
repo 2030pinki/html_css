@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggel</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .toggel{
+            height: 51px;
+            width: 120px;
+            border: 8px solid black;
+            border-radius: 58px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            animation: move 1s linear 1;
+        
+        }
+        .gol{
+            height: 50px;
+            width: 50px;
+            border: 3px solid rgb(35, 153, 189);
+            background-color: rgb(15, 13, 13);
+            border-radius: 50%;
+            
+        }
+        @keyframes move {
+            0%{
+                flex-direction: column;
+            }
+            100%{
+                flex-direction: row-reverse;
+            }
+            
+        }
+    </style>
+</body>
+<div class="toggel">
+    <div class="gol"></div>
+</div>
+</html>
