@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animationCss</title>
+</head>
+<body>
+    <style> 
+        *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+        }
+        body{
+            background-color: beige;
+        }
+        .box{
+            height: 100px;
+            width: 300px;
+            border: 6px double;
+            margin: 12px;
+            background-color: hotpink;
+             padding-top:25px;
+             font-size:larger;
+            position:relative;
+            text-align: center;
+            animation:right 4s ease-in-out 0s infinite alternate-reverse ;
+
+        }
+        .box1{
+            height: 100px;
+            width: 300px;
+            border: 6px double hotpink;
+            text-align: center;
+            padding-top:25px;
+            position: relative;
+            margin-top: -10px;
+            font-size: larger;
+            color: hotpink;
+            background-color: black;
+            animation:left 4s ease-in-out 0s infinite alternate-reverse both;
+            
+        }
+        @keyframes right {
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 800px;
+                left: 800px;
+            }
+        }
+         @keyframes left {
+            0%{
+                top: 0;
+                left:700px;
+            }
+            30%{
+                 right:0;
+                bottom:0;
+            }
+            60%{
+                right: 0;
+                bottom: 800px;
+            }
+            100%{
+                left:100px;
+                bottom:45px;
+            }
+        }
+    </style>
+</body>
+    
+    <div class="box"> Hi</div>
+    <div class="box1"> Hello </div>
+    </body>
+</html>
