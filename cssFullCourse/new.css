@@ -1,0 +1,27 @@
+body{
+    border: solid;
+    height: 323px;
+    width: 100px;
+    
+}
+#div1{
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 12px;
+}
+#div2{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+     margin-bottom: 12px;
+}
+#div3{
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+     margin-bottom: 12px;
+}
