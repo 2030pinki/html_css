@@ -1,0 +1,17 @@
+h1{
+    text-decoration: solid;
+    font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+
+}
+body{
+    background-color: #744975;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
+    border: dashed,white;
+}
+h5{
+    text-transform: lowercase;
+
+}
