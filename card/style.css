@@ -1,0 +1,58 @@
+
+.card{
+ height: 510px;
+ width: 300px;
+ border: 1px solid black;
+ border-radius: 10px;
+
+
+}
+
+.card .image{
+    height: 210px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:9px;
+    background-image: url("logo.jpg");
+    background-size: contain;
+}
+.card .love{
+    display: flex;
+
+
+}
+button{
+    
+     border-radius: 9px;
+     margin: 12px;
+     opacity: 0.7;
+     background-color: pink;
+}
+.card .par{
+    font-size: 29px;
+    padding: 12px;
+}
+.card .par2{
+    opacity: 0.7;
+    padding-top: 15px;
+    padding: 15px;
+
+}
+.card .button2 button a{
+    text-decoration: none;
+    
+    
+}
+.card .button2{
+    text-align: center;
+    }
+.card .button2 button{
+    background-color: rgb(170,206, 253);
+    color: rgb(14,150,234);
+    border: none;
+    font-size: 13px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
