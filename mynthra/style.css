@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    background-color: antiquewhite;
+}
+.myntra_home{
+    height: 53px;
+
+}
