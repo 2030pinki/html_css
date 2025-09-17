@@ -1,0 +1,1 @@
+alert("hey pinki please click ok. its use of js ")
