@@ -1,0 +1,83 @@
+h1{
+    
+    text-align: center;
+    text-decoration: #ccd2ca underline wavy;
+    color: whitesmoke;
+    font: weight 900px;
+    font-style:italic;
+    font-variant: initial;
+    font-display: hfg;
+    
+}
+button{
+    color:rgb(142, 157, 148);
+    background-color:rgb(200, 44, 122)
+    border:2px solid red;
+    
+
+    
+}
+p{
+    color: rgb(236, 232, 234);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:  rgb(187, 160, 25);
+   
+    
+}
+body{
+    background-color:rgba(100, 67, 42, 0.915);
+     border-style:dashed;
+    border: solid;
+    border-color: rgb(26, 7, 12);
+    border-style: double;
+    border-width: 10px;
+    border-radius: 122px;
+    padding: 122px;
+    
+}
+a{
+    text-decoration:none ;
+    text-decoration:rgb(253, 255, 253) underline dotted;
+    
+}
+ h2{
+    font-weight: 100 ;
+   
+}
+#pi{
+    font-size: 19px;
+    text-transform:uppercase;
+    border-style:dashed;
+    border: solid;
+    border-color: rgb(26, 7, 12);
+    border-style: double;
+    border-width: 10px;
+}
+span{
+    border: solid;
+    border-style: dashed;
+    text-align: center;
+}
+#one{
+    border: solid;
+    border-style: dashed;
+    border-color: black;
+    border-style: thick;
+    text-align: center;
+    background-color: rgb(88, 144, 138);
+    text-decoration: none;
+    width: 50%;
+    border-width:2px;
+    border-radius:22px;
+    padding: 12px;
+    margin: 11px;
+}
+button{
+    background-color: rgb(17, 21, 21);
+    border-radius: 50px;
+    border-color: rgb(136, 131, 142);
+    border: double;
+    border: solid;
+    padding:24px;
+
+}
