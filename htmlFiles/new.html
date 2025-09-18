@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new </title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 400px;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 8px solid;
+        background-color: black;
+        border-radius: 70;
+        border-top-color:rgb(118, 171, 202);
+        border-right-color: rgb(231, 119, 14);
+        border-left-color: rgb(165, 102, 102);
+        border-bottom-color: rgb(7, 192, 7);
+        animation: goll 0.5s linear 0s 5 forwards;
+    }
+    p{
+        color: white;
+        font-size: 32px;
+        margin:22px;
+    }
+    @keyframes goll {
+        0%{
+            rotate: 0deg;
+        }
+        100%{
+            rotate:360deg;
+        }
+    }
+</style>
+<body>
+    <div class="box"> <P>gol</P> </div>
+</body>
+</html>
