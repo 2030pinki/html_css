@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> phnoe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.phone{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 15px;
+
+}
+.photo{
+    background-image: url("ammi.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid ;
+    margin-top:40px;
+}
+
+button{
+    height: 45px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: red;   
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(32, 28, 28);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+button i{
+    rotate: 130deg;
+    font-size: 23px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(59, 56, 56);
+    border-radius: 40%;
+}
+.box i{
+    margin: 14px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.word{
+    display: flex;
+    justify-content: space-around;
+}
+.keypad p{
+    margin: 15px;
+}
+.box:hover{
+    transition: all 1s 1 0s;
+    transform: scale(1.1,1.1);
+}
+</style>
+<body>
+    <div class="phone">
+       <p> calling via SIM1 </p>
+        <h1>Ammi🌷 </h1>
+        <p id="num">phone +918307321228 </p>
+        <div class="photo"> </div>
+       <footer>
+        <div class="boxes">
+            <div class="keypad box"><p>---</p></div>
+            <div class="mute box"><i class="fa-solid fa-microphone"></i></div>
+            <div class="speaker box"><i class="fa-solid fa-volume-high"></i></div>
+            <div class="more box"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+        </div>
+         <div class="word">
+            <p> Keypad Mute Speaker More</p>
+            </div>
+         <button><i class="fa-solid fa-phone"></i> </button>
+         </footer>
+    </div>
+</body>
+</html>
