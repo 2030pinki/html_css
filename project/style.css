@@ -1,0 +1,29 @@
+
+#circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 70px;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    animation: animateX 3s linear infinite,animateY 3s ease-out infinite alternate;
+}
+ @keyframes animateX{
+    from{ 
+        left: 0px;
+    }
+    to{ 
+       left:100% ;
+    }
+ }
+ @keyframes animateY {
+    from{ 
+        bottom: 0px;
+    }
+    to{
+       bottom:100% ;
+    }
+ }
+
